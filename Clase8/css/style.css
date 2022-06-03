@@ -1,0 +1,54 @@
+body {
+    background-color: azure
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    padding-top: 70px;
+}
+
+
+header {
+    background-image: url(/img/abstract.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+header a{
+    padding-left: 400px;
+}
+
+button {
+    margin-top: 75px;
+    margin-left: 200px;
+    width: 100px;
+    height: 11px;
+
+}
+
+img {
+    max-width: 20%;
+    margin: 10px;
+    float: right;
+    width: 150px;
+    height: 200px;
+    padding-top: 20px;
+}    
+
+#fondo {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+footer{
+    align-items: center;
+    padding-left: 600px;
+    padding-top: 100px;
+    
+}
+

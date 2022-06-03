@@ -1,0 +1,37 @@
+
+body{
+    background-color: beige;
+}
+
+h1{
+    color: green;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.textoDestacado{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textoUnico{
+    font-weight: bold;
+}
+
+header nav ul li{
+    font-size: 20px;
+    text-align: center;
+}
+
+footer p{
+    text-align: justify;
+    text-decoration: dotted;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section p{
+    color: blueviolet;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-align: center;
+}
