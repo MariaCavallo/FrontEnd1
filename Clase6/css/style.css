@@ -3,16 +3,24 @@ header article{
     color: white;
 }
 
-span{
+.nav{
     color: white;
+    text-align: right;
 }
 
 header section nav ul li{
     color: white;
+    
 }
 
 .navegador{
     background-color: 
     rgba(240, 168, 62, 1);
     color: white;
+}
+
+.bowl{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
 }
