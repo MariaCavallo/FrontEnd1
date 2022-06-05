@@ -4,13 +4,24 @@ header article{
 }
 
 .nav{
+    padding-left: 1140px;
+}
+
+nav li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
     color: white;
+    list-style: none;
     text-align: right;
 }
 
+nav ul{
+    padding-left: 950px;
+}
+
 header section nav ul li{
-    color: white;
-    
+    color: white;   
 }
 
 .navegador{
@@ -19,8 +30,16 @@ header section nav ul li{
     color: white;
 }
 
-.bowl{
+.logo{
+    position: absolute;
+    height: 23px;
+    width: 166.38px;
+    left: 40px;
+}
+
+.Bowl{
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
+    
 }
