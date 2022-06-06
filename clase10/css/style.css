@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 0%;
+
+}
+
+header section p{
+    display: inline-block;
+    background-color: rgba(28, 209, 176, 1);
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 99%;
+
+}
+
+h1{
+    background-color: rgba(0, 102, 159, 1);
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    width: 99%;
+}
+
+.corazon1{
+    color: #cc2424;
+    display: inline-block;
+    position: absolute;
+    top: 1.88px;
+    bottom: 6.25%;
+    width: 30px;
+    height: 26.25px;
+}
