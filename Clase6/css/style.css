@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 header article{
     background-color: rgba(34, 34, 34, 1);
     color: white;
@@ -53,7 +58,7 @@ header nav ul{
 }
 
 .Banner{
-    background-image: url(/img/bowl.png);
+    background-image: url(/Clase6/img/bowl.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -88,3 +93,6 @@ header nav ul{
     color: #3C2313;
 }
 
+.textoboton{
+    display: inline-block;
+}
