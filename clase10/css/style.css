@@ -54,11 +54,13 @@ h1{
 
 .perfilB{
     position: absolute;
+    z-index: 10;
     width: 120px;
     height: 118px;
     left: 122px;
     top: 421px;
-    
+    bottom: 485px;
+    right: 782px;
 }
 
 .caja1{
@@ -69,6 +71,21 @@ h1{
     top: 485px;
     background-color: #f3f3f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tituloB{
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    left: 121px;
+    top: 510px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
 }
 
 .textito1{
@@ -95,6 +112,17 @@ h1{
     border-radius: 16px 16px 0px 0px;
 }
 
+.perfilH{
+    position: absolute;
+    z-index: 10;
+    width: 122px;
+    height: 122px;
+    left: 451px;
+    top: 419px;
+    bottom: 483px;
+    right: 451px;
+}
+
 .caja2{
     position: absolute;
     width: 300px;
@@ -104,6 +132,24 @@ h1{
     background-color: #f3f3f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.tituloH{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 427px;
+    top: 510px;
+    right: 426px;
+    bottom: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
 
 .textito2{
     position: absolute;
@@ -129,6 +175,17 @@ h1{
     border-radius: 16px 16px 0px 0px;
 }
 
+.perfilBat{
+    position: absolute;
+    z-index: 10;
+    width: 122px;
+    height: 120px;
+    left: 781px;
+    top: 420px;
+    bottom: 484px;
+    right: 121px;
+}
+
 .caja3{
     position: absolute;
     width: 300px;
@@ -137,6 +194,21 @@ h1{
     top: 485px;
     background-color: #f3f3f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tituloBat{
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    left: 781px;
+    top: 510px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
 }
 
 .textito3{
