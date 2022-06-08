@@ -1,36 +1,170 @@
+body{margin: 0%; 
+}
+
 *{
     box-sizing: border-box;
 }
 
 header{
-    margin-top: 0%;
+    box-sizing: border-box;
 
 }
 
 header section p{
     display: inline-block;
     background-color: rgba(28, 209, 176, 1);
-    position: absolute;
     font-size: 15px;
     font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 18px;
     width: 99%;
-
+    height: 38px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px;
+    margin-top: 0%;
 }
 
 h1{
     background-color: rgba(0, 102, 159, 1);
     display: inline-block;
-    position: absolute;
+    bottom: 50px;
+    position: relative;
+    box-sizing: border-box;
     padding-bottom: 30px;
     padding-top: 30px;
     font-weight: 400;
     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 47px;
     width: 99%;
+    box-shadow: 0px 10px 7px 
+        rgba(0, 0, 0, 0.25);
 }
 
-.corazon1{
+.fondoB{
+    background-image: url(/img/batman_fondo.png);
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+    bottom: 538px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.perfilB{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 122px;
+    top: 421px;
+    
+}
+
+.caja1{
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 32px;
+    top: 485px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textito1{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 48px;
+    top: 604px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.fondoH{
+    background-image: url(/img/harley_fondo.png);
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 362px;
+    top: 293px;
+    bottom: 538px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.caja2{
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 362px;
+    top: 485px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textito2{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 378px;
+    top: 604px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.fondoBat{
+    background-image: url(/img/batman_fondo.png);
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 692px;
+    top: 294px;
+    bottom: 538px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.caja3{
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 692px;
+    top: 485px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textito3{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 708px;
+    top: 605px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+/* .corazon1{
+    color: #cc2424;
+    position: absolute;
+    top: 308.88px;
+    bottom: 688.88px;
+    left: 53px;
+    right: 941px;
+    width: 30px;
+    height: 26.25px;
+    
+}
+
+.corazon2{
     color: #cc2424;
     display: inline-block;
     position: absolute;
@@ -38,4 +172,28 @@ h1{
     bottom: 6.25%;
     width: 30px;
     height: 26.25px;
+}
+
+.corazon3{
+    color: #cc2424;
+    display: inline-block;
+    position: absolute;
+    top: 1.88px;
+    bottom: 6.25%;
+    width: 30px;
+    height: 26.25px;
+} */
+
+footer p{
+    background-color: rgba(0, 102, 159, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    position: absolute;
+    width: 99%;
+    height: 51px;
+    top: 972px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 16px 16px;
 }
