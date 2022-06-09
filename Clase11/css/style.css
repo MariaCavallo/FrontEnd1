@@ -45,6 +45,10 @@ a:hover{
     padding-top: 30px;
 }
 
+main{
+    height: 50px;;
+}
+
 .oferta-delivery{
     position: absolute;
     border-radius: 5px;
@@ -52,6 +56,45 @@ a:hover{
     height: 350px;
     left: 19px;
     top: 135px;
+}
+
+.texto-rojo1{
+    position: absolute;
+    top: 13px;
+    left: 53px;
+    width: 350px;
+    height: 28px;
+    color: #FC200C;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px
+}
+
+.texto-blanco{
+    position: absolute;
+    color: #f3f3f3;
+    top: 13px;
+    left: 186px;
+    width: 350px;
+    height: 28px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.texto-rojo2{
+    position: absolute;
+    top: 13px;
+    left: 313px;
+    width: 350px;
+    height: 28px;
+    color: #FC200C;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px
 }
 
 .podio-pizzas{
@@ -68,17 +111,28 @@ a:hover{
 
 footer{
     position: relative;
+    display: flex-box;
+    height: auto;
+    width: auto;
     bottom: 8px;
-    top: 625px
+    top: 433px;
+    height: 112px;
+}
+
+footer a {
+    padding-bottom: 12px;
 }
 
 .logo-footer{
     position: absolute;
     left: 770px;
+    bottom: 130px;
+    top: 140px;
+
 }
 
 .contenedor-links-footer{
     position: relative;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
