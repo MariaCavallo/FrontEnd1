@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Roboto, sans-serif; 
+    background-color: #f3f3f3;
+}
+
+header, footer, a{
+    background-color: #222222;
+    color: #f3f3f3;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 51;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+a:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-logo img{
+    margin-right: 10px;
+}
+
+.header-links a{
+    position: absolute;
+    margin-left: 13px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.oferta-delivery{
+    position: absolute;
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+}
+
+.podio-pizzas{
+    position: absolute;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 135px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    flex-direction: column;
+}
+
+footer{
+    position: relative;
+    bottom: 8px;
+    top: 625px
+}
+
+.logo-footer{
+    position: absolute;
+    left: 770px;
+}
+
+.contenedor-links-footer{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
