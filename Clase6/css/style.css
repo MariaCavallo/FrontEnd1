@@ -1,15 +1,19 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
 }
-
 
 header article{
     background-color: rgba(34, 34, 34, 1);
     color: white;
     height: 30px;
+    
 }
+
 header article p{
-    text-align: left;
+    display: inline;
+    justify-content: space-between;
+    padding: 10px 10px;
     font-size: 16px;
     font-weight: 400;
     line-height: 12px;
@@ -18,18 +22,21 @@ header article p{
 header article span{
     font-size: 16px;
     text-align: right;
-    padding: 4px 0 4px 10px;
-    color: white
+    padding-left: 900px;
+    padding-top: 5px;
+    color: white;
+    display: inline-block;
 }
 
 header nav{
     background-color:rgba(240, 168, 62, 1);
     color:white;
-    display: inline-block;
     position: absolute;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 
 header nav li{
     display: inline;
@@ -41,12 +48,19 @@ header nav li{
     font-size: 20px;
     font-weight: 400;
     line-height: 15px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #cccc;
+    text-decoration: none;
 }
 
 header nav ul{
-    padding-left: 674px;
     display: inline;
     color: white;
+    padding-left: 671px;
+    text-decoration: none;
 }
 
 .logo{
@@ -58,7 +72,7 @@ header nav ul{
 }
 
 .Banner{
-    background-image: url(/Clase6/img/bowl.png);
+    background-image: url(/img/bowl.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -93,6 +107,148 @@ header nav ul{
     color: #3C2313;
 }
 
-.textoboton{
-    display: inline-block;
+.boton{
+    background-color: rgba(240, 168, 62, 1);
+    color: white;
+    padding-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    display:block;
+    height: 49px;
+    width: 141px;
+    left: 767px;
+    top: -164px;
+    text-align: center;
+    text-decoration: none;
 }
+
+.Patita{
+    display: flexbox;
+    position: absolute;
+    width: 67px;
+    height: 71px;
+    top: 555px;
+    left: 50%;
+    right: 50%;
+}
+
+h1{
+    display: flexbox;
+    position: absolute;
+    width: 586px;
+    height: 47px;
+    left: 382px;
+    top: 636px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+    text-align: center;
+}
+
+.lista-main{
+    position: absolute;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    color: #666666;
+    width: 286px;
+    height: 18px;
+    left: 500px;
+    top: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.churrasquito{
+    background-color: rgba(251, 250, 246, 1);
+    display: block;
+    position: relative;
+    width: 265px;
+    height: 268px;
+    left: 95px;
+    top: 265px;
+}
+
+.descr-churrasquito{
+    color: #3C2313;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(251, 250, 246, 1);
+}
+
+.pesos-churrasquito{
+    color: rgba(240, 168, 62, 1);
+    background: rgba(251, 250, 246, 1);
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    left: 24px;
+    top: 299px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comedero-main{
+    position: absolute;
+    display: block;
+    width: 38px;
+    height: 20px;
+    left: 450px;
+    background-color: rgba(251, 250, 246, 1);
+
+}
+
+.descr-comedero{
+    color: #3C2313;
+    background-color: rgba(251, 250, 246, 1);
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pesos-comedero-main{
+    color: rgba(240, 168, 62, 1);
+    background: rgba(251, 250, 246, 1);
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    top: 299px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.huesito{
+    position: absolute;
+    display: block;
+    width: 38px;
+    height: 60px;
+    left: 810px;
+    padding-right: 20px;    
+    background-color: rgba(251, 250, 246, 1);
+}
+
+.descr-huesito{
+    color: #3C2313;
+    background-color: rgba(251, 250, 246, 1);
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pesos-huesito{
+    color: rgba(240, 168, 62, 1);
+    background: rgba(251, 250, 246, 1);
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    top: 299px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
