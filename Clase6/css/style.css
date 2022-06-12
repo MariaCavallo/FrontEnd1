@@ -11,10 +11,15 @@ header article{
 }
 
 header article p{
-    display: inline;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    display: inline-block;
     justify-content: space-between;
     padding: 10px 10px;
     font-size: 16px;
+    top: -1px;
+    right: 512px;
     font-weight: 400;
     line-height: 12px;
 }
@@ -22,13 +27,13 @@ header article p{
 header article span{
     font-size: 16px;
     text-align: right;
-    padding-left: 900px;
+    padding-left: 1142px;
     padding-top: 5px;
     color: white;
     display: inline-block;
 }
 
-header nav{
+header section nav{
     background-color:rgba(240, 168, 62, 1);
     color:white;
     position: absolute;
@@ -38,21 +43,21 @@ header nav{
 }
 
 
-header nav li{
-    display: inline;
+header nav ul li{
+    display: inline-block;
     padding-left: 3px;
     padding-right: 3px;
     color: white;
+    text-decoration: none;    
     list-style: none;
     text-align: right;
     font-size: 20px;
     font-weight: 400;
     line-height: 15px;
-    text-decoration: none;
 }
 
 a:hover{
-    color: #cccc;
+    color: rgba(224, 224, 224, 0.8);
     text-decoration: none;
 }
 
@@ -154,7 +159,7 @@ h1{
     list-style: none;
     display: inline-flex;
     justify-content: space-around;
-    color: #666666;
+    color: #bebebe;
     width: 286px;
     height: 18px;
     left: 500px;
@@ -172,10 +177,11 @@ h1{
     width: 265px;
     height: 268px;
     left: 95px;
-    top: 265px;
+    top: 158px;
 }
 
 .descr-churrasquito{
+    display: inline-flex;
     color: #3C2313;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -188,7 +194,7 @@ h1{
     position: absolute;
     width: 38px;
     height: 20px;
-    left: 24px;
+    left: 60px;
     top: 299px;
     font-size: 15px;
     font-weight: 500;
@@ -201,11 +207,13 @@ h1{
     width: 38px;
     height: 20px;
     left: 450px;
+    top: 734px;
     background-color: rgba(251, 250, 246, 1);
 
 }
 
 .descr-comedero{
+    display: inline-flex;
     color: #3C2313;
     background-color: rgba(251, 250, 246, 1);
     text-align: center;  
@@ -218,7 +226,7 @@ h1{
     position: absolute;
     width: 38px;
     height: 20px;
-    top: 299px;
+    top: 312px;
     font-size: 15px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
@@ -230,11 +238,13 @@ h1{
     width: 38px;
     height: 60px;
     left: 810px;
+    top: 726px;
     padding-right: 20px;    
     background-color: rgba(251, 250, 246, 1);
 }
 
 .descr-huesito{
+    display: inline-flex;
     color: #3C2313;
     background-color: rgba(251, 250, 246, 1);
     text-align: center;  
@@ -246,9 +256,158 @@ h1{
     position: absolute;
     width: 38px;
     height: 20px;
-    top: 299px;
+    top: 311px;
     font-size: 15px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.contactos{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 340px;
+    height: 264px;
+    left: 532px;
+    top: 289px;
+}
+
+section div a{
+    position: relative;
+    display: inline-block;
+    background-color: #3C2313;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    right: 95px;
+    color: white;
+}
+
+.nombre-apellido{
+    position: absolute;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+    top: 40px;
+}
+
+.correo-electronico{
+    position: absolute;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+    top: 90px;
+}
+
+.telefono-main{
+    position: absolute;
+    background-color: #3C2313;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 140px;
+}
+
+.boton-resetear{
+    position: absolute;
+    border-radius: 15px;
+    background-color: #8A8787;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 110px;
+    height: 34px;
+    right: 287px;
+    top: 200px;
+}
+
+.boton-enviar{
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgba(240, 168, 62, 1);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 110px;
+    height: 34px;
+    right: 162px;
+    top: 200px;
+}
+
+section div h3{
+    position: absolute;
+    color: white;
+    background-color: rgba(240, 168, 62, 1);
+    height: 60px;
+    width: 100%;
+    top: 1449px;
+    padding-left: 90px;
+    padding-top: 15px;
+}
+
+.mensaje-volando{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 1460px;
+}
+
+.barra-suscrip{
+    position: absolute;
+    width: 346px;
+    height: 40px;
+    left: 865px;
+    top: 1456px;
+}
+
+footer{
+    position: absolute;
+    background-color: #3C2313;
+    color: white;
+    height: 301px;
+    top: 1506px;
+    width: 100%;
+    text-align: center;
+}
+
+footer div section img{
+    position: absolute;
+    display: inline-block;
+}
+
+.localidad{
+    width: 159px;
+    height: 64px;
+    left: 75px;
+    top: 20px;
+}
+
+.telefono{
+    width: 159px;
+    height: 64px;
+    left: 75px;
+    top: 92px;
+}
+
+.correo{
+    width: 233px;
+    height: 65px;
+    left: 76px;
+    top: 167px;
+}
+
+.logo-footer{
+    position: absolute;
+    height: 37px;
+    left: 900px;
+    top: 131px;
+
+}
+
+article p {
+    position: absolute;
+    background-color: rgba(34, 34, 34, 1);
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 30px;
+    top: 1787px;
+}
