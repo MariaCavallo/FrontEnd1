@@ -46,7 +46,7 @@ a:hover{
 }
 
 main{
-    height: 50px;;
+    height: 50px;
 }
 
 .oferta-delivery{
@@ -54,8 +54,8 @@ main{
     border-radius: 5px;
     width: 490px;
     height: 350px;
-    left: 19px;
-    top: 135px;
+    left: 140px;
+    top: 170px;
 }
 
 .texto-rojo1{
@@ -99,14 +99,60 @@ main{
 
 .podio-pizzas{
     position: absolute;
-    width: 491px;
-    height: 350px;
-    left: 514px;
-    top: 135px;
+    width: 462px;
+    height: 290px;
+    left: 560px;
+    top: 170px;
     background-color: #FFFFFF;
     border-radius: 5px;
     padding: 30px;
     flex-direction: column;
+}
+
+.texto-podio{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: #FC200C;
+    padding-left: 55px;
+    width: 350px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px
+}
+
+.pizza-falling{
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 312px;
+    top: 120px;
+    border-radius: 5px;
+}
+
+h3{
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 38px;
+    top: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.lista-pizzas{
+    position: absolute;
+    display: inline-flex;
+    width: 173px;
+    height: 178px;
+    left: 53px;
+    top: 130px;
+    font-weight: 500;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 footer{
