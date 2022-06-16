@@ -411,3 +411,57 @@ article p {
     height: 30px;
     top: 1787px;
 }
+
+@media(max-width: 460px){
+
+    header section nav{
+        width: 100%;
+    }
+    header nav ul li{
+        left: 100px;
+    }
+
+    .Banner{
+        display: flex;
+        justify-content: center;
+    }
+    .caja{
+        display: flex;
+        justify-content: center;
+        left: 58px;
+    }
+    .texto1{
+        left: 221px
+    }
+    .boton{
+        left: 244px;
+    }
+    .Patita{
+        display: flex;
+        justify-content: center;
+        left: 195px;        
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        left: -63px;
+    }
+    .lista-main{
+        left: 63px;
+    }
+    .churrasquito{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .descr-churrasquito{
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    .pesos-churrasquito{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
