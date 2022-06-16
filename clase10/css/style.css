@@ -1,331 +1,150 @@
-body{
-    margin: 0%;
-    font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
     box-sizing: border-box;
+    margin:0;
 }
 
-header{
-    box-sizing: border-box;
-    width: 100%;
+body{
+    font-family: "Roboto", sans-serif;
 }
 
-header section p{
-    display: inline-block;
-    background-color: rgba(28, 209, 176, 1);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 18px;
-    width: 100%;
-    height: 38px;
-    box-sizing: border-box;
-    padding: 10px 10px 10px;
-    margin-top: 0%;
+header p{
+    background-color:#D1891C;
+    padding: 2px 0px 2px 10px;
 }
 
-h1{
-    background-color: rgba(0, 102, 159, 1);
-    display: inline-block;
-    bottom: 50px;
+header h1{
+    background-color: #00669F;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section article{
+    background-color: #f3f3f3;
+    margin: 100px 0;
+    width: 300px;
+
     position: relative;
-    box-sizing: border-box;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 47px;
-    width: 100%;
-    box-shadow: 0px 10px 7px 
-        rgba(0, 0, 0, 0.25);
-}
 
-.section-princip{
     display: flex;
-}
-
-.fondoB{
-    background-image: url(/img/batman_fondo.png);
-    position: absolute;
-    display: inline-block;
-    width: 300px;
-    height: 193px;
-    left: 32px;
-    top: 293px;
-    bottom: 538px;
-    border-radius: 16px 16px 0px 0px;
-}
-
-.perfilB{
-    position: absolute;
-    z-index: 10;
-    width: 120px;
-    height: 118px;
-    left: 122px;
-    top: 421px;
-    bottom: 485px;
-    right: 782px;
-}
-
-.caja1{
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 32px;
-    top: 485px;
-    background-color: #f3f3f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.tituloB{
-    position: absolute;
-    width: 122px;
-    height: 35px;
-    left: 121px;
-    top: 510px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 35px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px 16px 0 0;
     text-align: center;
+}
+
+.contenedor{
+    height: 200px;
+    width: 300px;
+    border-radius: 16px 16px 0 0;
+    background-size: cover;
+    text-align: left;
+}
+
+.contenedor i{
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.contenedor-Batman{
+    background-image: url("../img/batman_fondo.png");
+}
+.contenedor-Maravilla{
+    background-image: url("../img/Mujer_maravilla.png");
+}
+.contenedor-Superman{
+    background-image: url("../img/Superman_fondo.png");
+}
+.contenedor-Harley{
+    background-image: url("../img/harley_fondo2.png");
+}
+
+section article img{
+    border-radius: 50%;
+    width: 125px;
+    position: absolute;
+    top: 130px;
+}
+
+section article h3{
+    font-size: 1.5rem;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+section article p{
+    font-size: 0.8rem;
+    height: 190px;
+    margin: 10px 10px;
+    text-align: left;
+}
+
+section article button{
+    background-color: #00669F;
+    border: none;
+    color: white;
+
+    margin: 25px;
+    padding: 10px 30px;
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    padding: 30px 0;
+
+    position: relative;
+
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
-.textito1{
+footer img{
     position: absolute;
-    width: 267px;
-    height: 113px;
-    left: 48px;
-    top: 604px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-.fondoH{
-    background-image: url(/img/harley_fondo.png);
-    position: absolute;
-    display: inline-block;
-    width: 300px;
-    height: 193px;
-    left: 362px;
-    top: 293px;
-    bottom: 538px;
-    border-radius: 16px 16px 0px 0px;
-}
-
-.perfilH{
-    position: absolute;
-    z-index: 10;
-    width: 122px;
-    height: 122px;
-    left: 451px;
-    top: 419px;
-    bottom: 483px;
-    right: 451px;
-}
-
-.caja2{
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 362px;
-    top: 485px;
-    background-color: #f3f3f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.tituloH{
-    position: absolute;
-    width: 171px;
-    height: 35px;
-    left: 427px;
-    top: 510px;
-    right: 426px;
-    bottom: 430px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 35px;
-    text-align: center;
-    align-items: flex-end;
-    margin-top: 20px;
-}
-
-
-.textito2{
-    position: absolute;
-    width: 267px;
-    height: 113px;
-    left: 378px;
-    top: 604px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-.fondoBat{
-    background-image: url(/img/batman_fondo.png);
-    position: absolute;
-    display: inline-block;
-    width: 300px;
-    height: 193px;
-    left: 692px;
-    top: 294px;
-    bottom: 538px;
-    border-radius: 16px 16px 0px 0px;
-}
-
-.perfilBat{
-    position: absolute;
-    z-index: 10;
-    width: 122px;
-    height: 120px;
-    left: 781px;
-    top: 420px;
-    bottom: 484px;
-    right: 121px;
-}
-
-.caja3{
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 692px;
-    top: 485px;
-    background-color: #f3f3f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.tituloBat{
-    position: absolute;
-    width: 122px;
-    height: 35px;
-    left: 781px;
-    top: 510px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 35px;
-    text-align: center;
-    display: flex;
-    align-items: flex-end;
-}
-
-.textito3{
-    position: absolute;
-    width: 267px;
-    height: 113px;
-    left: 708px;
-    top: 605px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-.ver-mas-1{
-    position: absolute;
-    border: rgba(0, 102, 159, 1);
-    background-color: rgba(0, 102, 159, 1);
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    width: 129px;
-    height: 49px;
-    left: 117px;
-    top: 754px;
-}
-
-.ver-mas-2{
-    position: absolute;
-    border: rgba(0, 102, 159, 1);
-    background-color: rgba(0, 102, 159, 1);
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    width: 129px;
-    height: 49px;
-    left: 441px;
-    top: 754px;
-}
-
-.ver-mas-3{
-    position: absolute;
-    border: rgba(0, 102, 159, 1);
-    background-color: rgba(0, 102, 159, 1);
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    width: 129px;
-    height: 49px;
-    left: 780px;
-    top: 754px;
-}
-
-.corazon1{
-    color: #cc2424;
-    display: inline-block;
-    position: absolute;
-    top: 305.88px;
-    bottom: 688.88px;
-    left: 48px;
-    right: 941px;
-    width: 30px;
-    height: 26.25px;
-    z-index: 10;
-}
-
-.corazon2{
-    color: #cc2424;
-    display: inline-block;
-    position: absolute;
-    top: 305.88px;
-    bottom: 688.88px;
-    left: 380px;
-    right: 941px;
-    width: 30px;
-    height: 26.25px;
-    z-index: 10;
-}
-
-.corazon3{
-    color: #cc2424;
-    display: inline-block;
-    position: absolute;
-    top: 305.88px;
-    bottom: 688.88px;
-    left: 710px;
-    right: 941px;
-    width: 30px;
-    height: 26.25px;
-    z-index: 10;
-} 
-
-footer p{
-    background-color: rgba(0, 102, 159, 1);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: white;
-    position: absolute;
-    width: 100%;
-    height: 51px;
-    top: 972px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    padding: 16px 16px 16px;
+    right: 25px;
+    width: 100px;
 }
 
 @media(max-width: 768px){
+
     header section p{
         background-color: rgba(209, 137, 28, 1);
         width: 100%;
     }
-    
     h1{
         color: white;
         width: 100%;
+    }
+    .fondoB{
+        background-image: url(/img/batman_fondo.png);
+    }
+    .perfilB{
+        background-image: url(/img/batman.png);
+    }
+    .fondoM{
+        background-image: url(/img/Mujer_maravilla.png);
+    }
+    .perfilM{
+        background-image: url(/img/Maravilla.png);
+    }
+    .fondoS{
+        background-image: url(/img/Superman_fondo.png);
+    }
+    .perfilS{
+        background-image: url(/img/Superman.png);
+    }
+    .fondoH{
+        background-image: url(/img/harley_fondo2.png);
+    }
+    .perfilH{
+        background-image: url(/img/harleyy2.png);
     }
 }
 
