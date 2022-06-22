@@ -56,9 +56,12 @@ header nav ul li{
     line-height: 15px;
 }
 
+a{
+    text-decoration: white;
+}
+
 a:hover{
     color: rgba(224, 224, 224, 0.8);
-    text-decoration: none;
 }
 
 header nav ul{
