@@ -5,29 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/petshop.css">
     <script src="https://kit.fontawesome.com/0f4f5c2e19.js" crossorigin="anonymous"></script>
     <title>PetShop</title>
 </head>
 
 <body>
     <header>
-        <article>
+        <article class="top">
             <p>Grandes ofertas en comederos.</p>
             <span>Español ARG$</span>
         </article>
-            <section>
             <nav>
-            <img class="Logo" src="img\Logo.png" alt="Logo PetShop"></a></li>
-            <ul>
-                <li><a href=""><i class="fa-solid fa-paw"></i>Categorias</a></li>
-                <li><a href=""><i class="fa-solid fa-paw"></i>Pet</a></li>
-                <li><a href=""><i class="fa-solid fa-paw"></i>Nosotros</a></li>
-                <li><a href=""><i class="fa-solid fa-paw"></i>Contactenos</a></li>
-            </ul>
-            <br>
-        </nav>
-        </section>
+            <img class="Logo" src="img\Logo.png" alt="Logo PetShop">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-paw"></i>Categorias</a></li>
+                    <li><a href=""><i class="fa-solid fa-paw"></i>Pet</a></li>
+                    <li><a href=""><i class="fa-solid fa-paw"></i>Nosotros</a></li>
+                    <li><a href=""><i class="fa-solid fa-paw"></i>Contactenos</a></li>
+                </ul>
+            </nav>
     </header>
     <main>
         <section>
@@ -62,13 +59,19 @@
         </section>
         <section class="contactos">
             <h2>Contáctanos</h2>
-                <div>
-                    <a class="nombre-apellido">Nombre y apellido</a>
-                    <a class="correo-electronico">Ingresa tu correo electrónico</a>
-                    <a class="telefono-main">Teléfono</a>
-                </div>
-                    <button class="boton-resetear">Resetear</button>
-                <button class="boton-enviar">Enviar</button>
+                    <form action="/registro" method="POST">
+                            <!-- <label class="label-nombr" for="nombre">Nombre y apellido:</label> -->
+                            <input class="nombre" type="text" name="nombreUsuario" id="nombre">
+
+                            <!-- <label class="label-email" for="email">Correo electrónico:</label> -->
+                            <input class="email" type="email" name="emailUsuario" id="email">
+
+                            <!-- <label class="label-tel" for="telefono">Teléfono:</label> -->
+                            <input class="tel" type="tel" name="telefonoUsuario" id="tel">
+
+                            <button class="submit" type="submit">Enviar</button>
+                            <button class="reset" type="reset">Resetear</button>
+                    </form>
         </section>
         <section>
             <div>
