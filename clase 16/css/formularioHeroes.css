@@ -39,10 +39,27 @@ a:hover{
     color: rgb(202, 195, 195);
 }
 
-.contenedor{
-    position: absolute;
+main div form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
     background-color: #00669F;
+    width: 90vw;
+    height: 80vh;
+    color: white;
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 49.0901px;
-
+    border-radius: 49px;
 }
+
+section{
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
