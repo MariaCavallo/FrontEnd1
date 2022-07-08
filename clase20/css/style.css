@@ -1,1 +1,4 @@
-/* hacer css y scss, y agregar todo lo que aparece en el playground  */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
