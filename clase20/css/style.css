@@ -2,3 +2,19 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+button{
+    display: flex;
+    border-style: dotted;
+    background-color: aqua;
+    border-radius: 30%;
+    width: 20%;
+}
