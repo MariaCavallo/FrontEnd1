@@ -1,0 +1,23 @@
+@media (max-width: 375px) {
+  * {
+    box-sizing: border-box;
+    margin: 0%;
+  }
+  body {
+    display: grid;
+    grid-template-columns: repeat(5, 20vw);
+    grid-template-rows: 10vh 10vh 70vh 10vh;
+  }
+  header {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .imagen-circular {
+    width: 50px;
+    border-radius: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
