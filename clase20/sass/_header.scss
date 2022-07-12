@@ -1,6 +1,16 @@
-header nav ul {
+header nav {
+    position: absolute;
+    left: 51rem;
+    bottom: 76rem;
+}
+
+header nav ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    left: 49rem;
+    bottom: 75rem;
+}
+
+header h3 {
+    height: 32px;
 }
